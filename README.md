@@ -51,14 +51,39 @@ P_1/
 
 ## Trabajo en Parejas
 
-1. **Cada miembro:**
-   - Clona el repositorio
-   - Configura el entorno siguiendo los pasos anteriores
-   - Trabaja en su propia rama
+### Configuración inicial (solo la primera vez):
 
-2. **Compartir cambios:**
+1. **El primer miembro del equipo:**
+   - Crea el repositorio en GitHub
+   - Clona el repositorio: `git clone <URL_DEL_REPOSITORIO>`
+   - Configura el entorno siguiendo los pasos anteriores
+
+2. **El segundo miembro del equipo:**
+   - Clona el repositorio: `git clone <URL_DEL_REPOSITORIO>`
+   - Configura el entorno siguiendo los pasos anteriores
+
+### Trabajo diario:
+
+1. **Antes de empezar a trabajar:**
+   ```bash
+   git pull origin main  # Sincronizar con los últimos cambios
+   ```
+
+2. **Crear una rama para tu trabajo:**
+   ```bash
+   git checkout -b nombre-pareja
+   ```
+
+3. **Hacer cambios y subirlos:**
    ```bash
    git add .
    git commit -m "Descripción de los cambios"
+<<<<<<< HEAD
    git push origin nombre-rama
    ``
+=======
+   git push origin nombre-pareja
+   ```
+
+4. **Crear Pull Request en GitHub** para fusionar los cambios
+>>>>>>> 240827b (ahora el readme te explica como tienes que hacer para sincronizarte conmigo y poder trabajar en el dia a dia ;3)
