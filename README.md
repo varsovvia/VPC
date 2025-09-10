@@ -78,12 +78,14 @@ P_1/
    ```bash
    git add .
    git commit -m "Descripción de los cambios"
-<<<<<<< HEAD
-   git push origin nombre-rama
-   ``
-=======
    git push origin nombre-pareja
    ```
 
 4. **Crear Pull Request en GitHub** para fusionar los cambios
->>>>>>> 240827b (ahora el readme te explica como tienes que hacer para sincronizarte conmigo y poder trabajar en el dia a dia ;3)
+
+## 📝 Notas Importantes
+
+- **Siempre hacer `git pull` antes de empezar** para evitar conflictos
+- **Trabajar en ramas separadas** para no interferir con el trabajo del compañero
+- **Hacer commits frecuentes** con mensajes descriptivos
+- **Usar Pull Requests** para revisar el código antes de fusionarlo
